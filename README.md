@@ -48,6 +48,7 @@ img_gamma = cv2.LUT(img_clahe, look_up_table)
 
 ## Technologies Used
 
+
 | Library | Purpose |
 |--------|---------|
 | **Python 3.12** | Core programming language |
@@ -63,11 +64,11 @@ img_gamma = cv2.LUT(img_clahe, look_up_table)
 
 ### Install dependencies
 
-| Package | Installation Command |
-|---------|-----------------------|
-| **opencv-python** | `pip install opencv-python` |
-| **scikit-image** | `pip install scikit-image` |
-| **numpy** | `pip install numpy` |
-| **matplotlib** | `pip install matplotlib` |
+```bash
+pip install opencv-python
+pip install scikit-image
+pip install numpy
+pip install matplotlib
+
 
 
