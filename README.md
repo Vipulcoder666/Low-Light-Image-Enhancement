@@ -56,15 +56,18 @@ img_gamma = cv2.LUT(img_clahe, look_up_table)
 | **NumPy** | Numerical operations |
 | **Matplotlib** (optional) | Visual comparison |
 
+
 ---
 
 ## Installation
 
 ### Install dependencies
 
-```bash
-pip install opencv-python
-pip install scikit-image
-pip install numpy
-pip install matplotlib
+| Package | Installation Command |
+|---------|-----------------------|
+| **opencv-python** | `pip install opencv-python` |
+| **scikit-image** | `pip install scikit-image` |
+| **numpy** | `pip install numpy` |
+| **matplotlib** | `pip install matplotlib` |
+
 
